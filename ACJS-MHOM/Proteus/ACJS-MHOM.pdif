@@ -1,0 +1,193 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ACJS-MHOM"
+   (description "6.35mm (0.250\", 1/4\") - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Press-Fit, Solder")
+   (family "CON")
+   (package "ACJSMHOM")
+   (attribute "Datasheet Link" "https://www.amphenol-industrial.de/media/pages/produkte/audio-steckverbinder/1-4-phone-jack-3-5mm/geratedose-3-polig-acjsmhom/8cc87383e3-1710307780/cdr-u-sap-uploads-dokumente-zu-materialnummern-20210623-audio-cdr-acjs-mhom.pdf")
+   (attribute "Geometry.Height" "12.9mm")
+   (attribute "Manufacturer_Name" "Amphenol Sine Systems")
+   (attribute "Manufacturer_Part_Number" "ACJS-MHOM")
+   (attribute "Mouser Part Number" "523-ACJS-MHOM")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Audio/ACJS-MHOM?qs=t8VhaDIDl4vZ9ROsgrVY0w%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "ACJS-MHOM")
+    (pin "R1" R1 PS)
+    (pin "S1" S1 PS)
+    (pin "S2" S2 PS)
+    (pin "T1" T1 PS)
+    (pin "RN1" RN1 PS)
+    (pin "TN1" TN1 PS)
+   )
+  )
+  (symbol "ACJS-MHOM"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ACJSMHOM"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -13.9 2.09)
+      (pt 11.1 2.09)
+      (pt 11.1 -13.66)
+      (pt -13.9 -13.66)
+      (pt -13.9 2.09))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -13.9 2.09)
+      (pt 11.1 2.09)
+      (pt 11.1 -13.66)
+      (pt -13.9 -13.66)
+      (pt -13.9 2.09))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -14.9 3.09)
+      (pt 20.3 3.09)
+      (pt 20.3 -14.66)
+      (pt -14.9 -14.66)
+      (pt -14.9 3.09))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 11.1 -2.467)
+      (pt 12.1 -11.992)
+      (pt 13.1 -2.467)
+      (pt 14.1 -11.992)
+      (pt 15.1 -2.467)
+      (pt 16.1 -11.992)
+      (pt 17.1 -2.467)
+      (pt 18.1 -11.992)
+      (pt 19.3 -11.992)
+      (pt 19.3 -2.467)
+      (pt 18.1 -2.467)
+      (pt 17.1 -11.992)
+      (pt 16.1 -2.467)
+      (pt 15.1 -11.992)
+      (pt 14.1 -2.467)
+      (pt 13.1 -11.992)
+      (pt 12.1 -2.467)
+      (pt 11.1 -11.992))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 11.1 -2.467)
+      (pt 12.1 -11.992)
+      (pt 13.1 -2.467)
+      (pt 14.1 -11.992)
+      (pt 15.1 -2.467)
+      (pt 16.1 -11.992)
+      (pt 17.1 -2.467)
+      (pt 18.1 -11.992)
+      (pt 19.3 -11.992)
+      (pt 19.3 -2.467)
+      (pt 18.1 -2.467)
+      (pt 17.1 -11.992)
+      (pt 16.1 -2.467)
+      (pt 15.1 -11.992)
+      (pt 14.1 -2.467)
+      (pt 13.1 -11.992)
+      (pt 12.1 -2.467)
+      (pt 11.1 -11.992))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 2.6)
+      (arc (pt 0.000 2.600) (pt -0.050 2.600) (pt 0.050 2.700) (start 180.0) (sweep -90.0))
+      (pt 0 2.7)
+      (arc (pt 0.000 2.700) (pt -0.050 2.600) (pt 0.050 2.700) (start 180.0) (sweep 90.0))
+      (pt 0 2.6))))
+   (leg R1 (pt 0.000 0.000) (padstack 0))
+   (leg S1 (pt 6.350 0.000) (padstack 0))
+   (leg S2 (pt 6.350 -11.430) (padstack 0))
+   (leg T1 (pt -6.350 0.000) (padstack 4))
+   (leg RN1 (pt 0.000 -11.430) (padstack 5))
+   (leg TN1 (pt -6.350 -11.430) (padstack 0))
+   (padstack 0
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (padstack 4
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (padstack 5
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (model "ACJS-MHOM.stp"
+    (euler 90 0 90)
+    (offset 10.550000190734863 -7.190000057220459 6.539999961853027)
+   )
+  )
+ )
+)

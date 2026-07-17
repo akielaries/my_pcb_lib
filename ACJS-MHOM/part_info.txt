@@ -1,0 +1,9 @@
+Manufacturer=Amphenol Sine Systems
+PartNumber=ACJS-MHOM
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=3.3
+Released=2024-10-20 08:41:33
+Downloaded=2026-07-17 07:14:12
+3D=Y

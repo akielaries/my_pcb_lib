@@ -1,0 +1,19 @@
+.ACJS-MHOM :1 ;6.35mm (0.250", 1/4") - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Press-Fit, Solder
+ACJSMHOM
+*STM J
+*NGS
+*PNM 1=R1 2=S1 3=S2 4=T1 5=RN1 6=TN1
+*PLB 1="R1" 2="S1" 3="S2" 4="T1" 5="RN1" 6="TN1"
+*MXP 6
+*DFN ACJS-MHOM
+~!Manufacturer_Name (Amphenol Sine Systems)
+~!Manufacturer_Part_Number (ACJS-MHOM)
+~!Mouser Part Number (523-ACJS-MHOM)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Amphenol-Audio/ACJS-MHOM?qs=t8VhaDIDl4vZ9ROsgrVY0w%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.amphenol-industrial.de/media/pages/produkte/audio-steckverbinder/1-4-phone-jack-3-5mm/geratedose-3-polig-acjsmhom/8cc87383e3-1710307780/cdr-u-sap-uploads-dokumente-zu-materialnummern-20210623-audio-cdr-acjs-mhom.pdf)
+~!Height (12.9mm)
+~!3D_Model (ACJS-MHOM)
+ACJS-MHOM
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

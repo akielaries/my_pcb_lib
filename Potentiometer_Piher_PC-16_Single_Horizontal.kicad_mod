@@ -1,0 +1,330 @@
+(footprint "Potentiometer_Piher_PC-16_Single_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Piher PC-16 Single, http://www.piher-nacesa.com/pdf/20-PC16v03.pdf")
+	(tags "Potentiometer horizontal Piher PC-16 Single")
+	(property "Reference" "RV15"
+		(at 0 -14.25 0)
+		(layer "F.SilkS")
+		(uuid "2f2f8e3f-fbdb-46ad-8849-6b00f10b2cf8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10K"
+		(at 0 4.25 0)
+		(layer "F.Fab")
+		(uuid "13933bf0-4a53-4b7e-994a-efec63e4b422")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60e4abb1-7026-497a-99b2-d1ab12312ebd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Potentiometer"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d408b29b-5eb7-4b0f-b982-80e24cca371f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "potentiometer/THT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ce4c6ec5-21c3-416f-a8cf-c1039195d008")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad281d6c-599e-400a-ac83-94384af058f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" "POT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f598ffe-8eba-43c6-8320-5be592980c7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31928b67-a616-45b1-bc06-2aa89a1ebad4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Potentiometer*")
+	(sheetname "/")
+	(sheetfile "OSC_CTRL.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.61 -13.11)
+		(end 6.61 -13.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56563c01-e602-495e-8baf-bf64996d7f99")
+	)
+	(fp_line
+		(start -1.61 3.11)
+		(end -1.61 -13.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "037f7604-ef0b-4b13-8eb4-05c6e54608d3")
+	)
+	(fp_line
+		(start 6.61 -13.11)
+		(end 6.61 3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65af5384-55eb-49fc-985c-0266eef4e849")
+	)
+	(fp_line
+		(start 6.61 -10.11)
+		(end 15.61 -10.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95bcc2da-d175-4e82-9ed9-a0a5bc48beb6")
+	)
+	(fp_line
+		(start 6.61 0.11)
+		(end 6.61 -10.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7d9a5e9-10a7-4bcb-b1d2-5ca8675a30b8")
+	)
+	(fp_line
+		(start 6.61 3.11)
+		(end -1.61 3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20cee13b-501d-4ecd-9405-d951e119e6de")
+	)
+	(fp_line
+		(start 15.61 -10.11)
+		(end 15.61 0.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efd3d018-6cb1-4773-be21-da4b05fa5cf3")
+	)
+	(fp_line
+		(start 15.61 -8.11)
+		(end 31.61 -8.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "503d5f94-aa43-434d-8268-7d8d1d65f2a8")
+	)
+	(fp_line
+		(start 15.61 -1.89)
+		(end 15.61 -8.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5061d49-96ab-46f6-bc73-f0d818d187f7")
+	)
+	(fp_line
+		(start 15.61 0.11)
+		(end 6.61 0.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f606402-e28d-4052-95d7-d7c0875293e4")
+	)
+	(fp_line
+		(start 31.61 -8.11)
+		(end 31.61 -1.89)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fd7352b-1ca6-4e64-8f20-d12797d9d917")
+	)
+	(fp_line
+		(start 31.61 -1.89)
+		(end 15.61 -1.89)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ee7e2a4-c3ec-41b4-9f89-db78790662d0")
+	)
+	(fp_rect
+		(start -1.75 -13.25)
+		(end 31.75 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "193b5974-ca0c-4e6a-9566-fd3f24769b0a")
+	)
+	(fp_rect
+		(start -1.5 -13)
+		(end 6.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bd583f44-abf4-48a9-bfd3-2f812127f713")
+	)
+	(fp_rect
+		(start 6.5 -10)
+		(end 15.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dedca2b7-f368-4c82-bc0c-05e657a551ac")
+	)
+	(fp_rect
+		(start 15.5 -8)
+		(end 31.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e0b8fe48-3eb9-4245-8583-c53968fceec9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 -5 0)
+		(layer "F.Fab")
+		(uuid "d2cca3a2-0c89-47a8-acef-78f9d4e5fc29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "76348ac8-9caf-4ac6-803a-5c96f66ad92a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97f76b73-4ada-4f52-8a56-316b6d199eb0")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -10)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "14d2acb8-ea5b-4d30-a068-1e6da627eb81")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PC-16_Single_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/home/akiel/trunk/pub/my_footprints/WH148-1A-2-18T-L20--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 0 5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

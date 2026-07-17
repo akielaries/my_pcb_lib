@@ -1,0 +1,95 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LXES15AAA1-153" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "L" (id 0) (at -5.10567 4.4578 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "LXES15AAA1-153" (id 1) (at -5.09838 -5.09288 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "LXES15AAA1-153:INDC1005X45" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Murata" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "ESD Suppressor TVS 4V 2-Pin Case 0402 T/R" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "0402 Murata" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PRICE" "0.14 USD" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "LXES15AAA1-153" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "AVAILABILITY" "Good" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "LXES15AAA1-153_0_0"
+      (polyline
+        (pts (xy -2.54 1.524) (xy -2.54 -1.524)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 -1.524) (xy 0.0 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy -2.54 1.524)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 1.524) (xy 2.54 -1.524)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -1.524) (xy 0.0 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 2.54 1.524)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -1.524) (xy 0.0 1.524)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 1.524) (xy 1.016 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -1.524) (xy -1.016 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy -2.54 1.524)
+          (xy 0.0 0.0)
+          (xy -2.54 -1.524)
+          (xy -2.54 1.524)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 2.54 1.524)
+          (xy 2.54 -1.524)
+          (xy 0.0 0.0)
+          (xy 2.54 1.524)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (pin passive line (at -5.08 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

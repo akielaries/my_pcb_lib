@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ACJS-MHOM"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-10-20-08:41:33)
+    (mountForm default
+        (footprintRef "ACJSMHOM")
+        (spec "System")
+    )
+)
